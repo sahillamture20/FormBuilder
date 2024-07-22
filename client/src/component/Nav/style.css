@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.signin, .create {
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 600; 
+}
+.signin {
+    background-color: #111;
+    color: #7EA6FF;
+    border: 1px solid #7EA6FF;
+    margin-right: 10px; 
+}
+.create{
+    background-color: #1A5FFF;
+    color: white;
+    border: none;
+}
