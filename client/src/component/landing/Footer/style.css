@@ -5,11 +5,11 @@
     padding-bottom: 5vw;
     font-family: 'Open sans';
     font-size: 13px;
+    background-color: #171923;
 }
 ul li{
     list-style: none;
     margin-bottom: 10px;
-    /* border-bottom: 0.2px solid white; */
 }
 .part1{
     width: 11vw;

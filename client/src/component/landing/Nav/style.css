@@ -10,7 +10,7 @@ html, body {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 2vw 10vw;
     font-size: 20px;
 }
 .logo {
@@ -19,7 +19,13 @@ nav {
     gap: 5px;
 }
 .logo img {
-    height: 50%;
+    height: 70%;
+}
+.logo p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
 }
 .signin, .create {
     padding: 5px 10px;
@@ -27,13 +33,24 @@ nav {
     font-weight: 500; 
 }
 .signin {
-    background-color: #111;
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #171923;
     color: #7EA6FF;
     border: 1px solid #7EA6FF;
     margin-right: 10px; 
+    font-size: 15px;
+    font-weight: 500;
 }
 .create{
+    font-size: 15px;
+    font-weight: 500;
     background-color: #1A5FFF;
     color: white;
     border: none;
+    width: 173px;
+    height: 40px;
+    /* padding: 10.05px 16px; */
+    border-radius: 6px;
 }

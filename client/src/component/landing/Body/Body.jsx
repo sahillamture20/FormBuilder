@@ -1,4 +1,4 @@
-import "./style.css";
+import '../Body/style.css'
 function Body() {
   return (
     <div className="containers">
