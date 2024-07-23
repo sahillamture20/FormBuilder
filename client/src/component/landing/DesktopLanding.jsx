@@ -1,7 +1,7 @@
 
-import Nav from '../Nav/Nav'
-import Body from '../Body/Body'
-import Footer from '../Footer/Footer'
+import Nav from './Nav/Nav'
+import Body from './Body/Body'
+import Footer from './Footer/Footer'
 
 const DesktopLanding = () => {
   return (
