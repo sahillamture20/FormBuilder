@@ -8,7 +8,7 @@ const DesktopLanding = () => {
     <>
       <Nav />
       <Body />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

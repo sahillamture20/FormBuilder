@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 5vw;
+    font-family: 'Open sans';
+    font-size: 13px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    /* border-bottom: 0.2px solid white; */
+}
+.part1{
+    width: 11vw;
+    margin-top: 2vw;
+}
+.part1 i{
+    color: red;
+}
