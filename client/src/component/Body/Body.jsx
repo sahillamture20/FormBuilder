@@ -17,13 +17,9 @@ function Body() {
         </div>
       </section>
       <section className="replace">
-        <h2>
-          Replace your old school forms
-          <br />
-          with
-          <br />
-          chatbots
-        </h2>
+        <h2>Replace your old school forms</h2>
+        <h2>with</h2>
+        <h2>chatbots</h2>
         <p>
           Typebot is a better way to ask for information. It leads to an
           increase in customer satisfaction and retention and multiply by
@@ -32,7 +28,6 @@ function Body() {
         </p>
         <div>
           <img src="./assets/replace-form.png" alt="form" />
-          {/* <img src="" alt="FormBot-form" /> */}
         </div>
       </section>
       <section className="experience">
@@ -68,79 +63,35 @@ function Body() {
           </p>
         </div>
       </section>
-      <div>
+      <section className="result">
         <h3>Collect results in real-time</h3>
         <p>
           One of the main advantage of a chat application is that you collect
-          the users responses on each question. You will not lose any valuable
-          data.
+          the users responses on each question. <span>You will not lose any valuable
+          data.</span>
         </p>
-        <img src="" alt="result" />
-      </div>
-      <div className="features">
-        <div className="heading">
-          <h3>And many more features</h3>
-          <p>
-            Typebot makes form building easy and comes with powerful features
-          </p>
-        </div>
-        <div className="feature-cards">
-          <div className="">
-            <img src="" alt="" />
-            <h3>Hidden Fields</h3>
-            <p>
-              Include data in your form URL to segment your user and use its
-              data directly in your form.
-            </p>
-          </div>
-          <div className="">
-            <img src="" alt="" />
-            <h3>Team Collaboration</h3>
-            <p>Invite your teammates to work on your typebots with you</p>
-          </div>
-          <div className="">
-            <img src="" alt="" />
-            <h3>Link to sub typebots</h3>
-            <p>Reuse your typebots in different parent bots.</p>
-          </div>
-          <div className="">
-            <img src="" alt="" />
-            <h3>Custome code</h3>
-            <p>Customize everything with your own Javascript & CSS code</p>
-          </div>
-          <div className="">
-            <img src="" alt="" />
-            <h3>Custome domain</h3>
-            <p>Connect your typebot to the custom URL of your choice</p>
-          </div>
-          <div className="">
-            <img src="" alt="" />
-            <h3>Folder management</h3>
-            <p>
-              Organize your typebots in specific folders to keep it clean and
-              work with multiple clients
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="reviews">
-        <h3>Loved by teams and creators from all around the world</h3>
-        <div className="logo">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
-      </div>
-      <div>
+        <img src="./assets/typebot-standard.png" alt="result" />
+      </section>
+      <section className="features">
+        <h3>And many more features</h3>
+        <p>
+          Typebot makes form building easy and comes with powerful features
+        </p>
+        <img src="./assets/features.png" alt="features" />
+      </section>
+      <section className="reviews">
+        <p>Loved by teams and creators from all around the world</p>
+        <img src="./assets/teams.png" alt="teams" />
+      </section>
+      <section className="last-main">
         <h3>Improve conversion and user engagement with FormBots </h3>
         <button>Create a FormBot</button>
-        <p>No trial. Generous free plan.</p>
-      </div>
+        <p>No trial. Generous <span>free</span> plan.</p>
+        <div className="shapes">
+          <img src="./assets/main-orange-rectangle.png" alt="rectangle" />
+          <img src="./assets/main-blue-bridge.png" alt="bridge" />
+        </div>
+      </section>
     </div>
   );
 }
