@@ -16,7 +16,7 @@ export default function Login() {
 
   return (
     <div className="App">
-      <Link to={"/"}>
+      <Link to={"/signup"}>
         <i className="ri-arrow-left-line"></i>
       </Link>
       <form onSubmit={handleSubmit(onSubmit)}>

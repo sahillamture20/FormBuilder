@@ -15,7 +15,7 @@ export default function Signin() {
 
   return (
     <div className="App">
-      <Link to={"/login"}>
+      <Link to={"/"}>
         <i className="ri-arrow-left-line"></i>
       </Link>
       <form onSubmit={handleSubmit(onSubmit)}>
